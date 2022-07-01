@@ -3,16 +3,16 @@ shy3765@163.com | Handan Campus, Fudan University, Shanghai
 
 ## EDUCATION
 ---
-<div style="font-size:16px"><span style="float:right"> <em>Sep 2016 - Jun 2019</em> </span><font size="3"> <strong>Caoyang NO.2 High School</strong> </div>  
+ <strong>Caoyang NO.2 High School</strong>  <em>Sep 2016 - Jun 2019</em> 
   
   - Language proficiency：English, Germany
 
-<div style="font-size:16px"><span style="float:right"> <em>Sep 2019 - Jun 2020</em> </span><font size="3"> <strong>ECUST </strong></div> 
+ <strong>ECUST </strong>    <em>Sep 2019 - Jun 2020</em>
   
 - GPA : 3.61 / 4.0 ( Top 1 ) 
 - Honors/Awards : 2019-2020 The First Scholarship(Top 3% of the Department), The First Prize in the 14th Mathematics Grand Competition of ECUST
 
-<div style="font-size:16px"><span style="float:right"> <em>Sep 2020 - Jun 2024</em> </span><font size="3"> <strong>Fudan University </strong></div> 
+ <strong>Fudan University </strong>   <em>Sep 2020 - Jun 2024</em> 
   
 Field of Study : Undergraduate in *Biomedical Engneering(BME)*
   
