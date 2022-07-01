@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Haoyang Su
+shy3765@163.com | Handan Campus, Fudan University, Shanghai
 
-You can use the [editor on GitHub](https://github.com/Hoyant-Su/Hoyant-Su.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## EDUCATION
+---
+<div style="font-size:16px"><span style="float:right"> <em>Sep 2016 - Jun 2019</em> </span><font size="3"> <strong>Caoyang NO.2 High School</strong> </div>  
+  
+  - Language proficiency：English, Germany
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div style="font-size:16px"><span style="float:right"> <em>Sep 2019 - Jun 2020</em> </span><font size="3"> <strong>ECUST </strong></div> 
+  
+- GPA : 3.61 / 4.0 ( Top 1 ) 
+- Honors/Awards : 2019-2020 The First Scholarship(Top 3% of the Department), The First Prize in the 14th Mathematics Grand Competition of ECUST
 
-### Markdown
+<div style="font-size:16px"><span style="float:right"> <em>Sep 2020 - Jun 2024</em> </span><font size="3"> <strong>Fudan University </strong></div> 
+  
+Field of Study : Undergraduate in *Biomedical Engneering(BME)*
+  
+- GPA : 3.64 / 4.0 ( Top 4 )；Professional GPA：3.93/4.0 
+- Honors/Awards : 2020-2021 Securities Technology Scholarship(Titled First Prize/Top 3% of the Department)
+  
+## Language proficiency
+  - English : CET-6, CET-4
+  - Chinese, Germany speaking
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hoyant-Su/Hoyant-Su.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Computer Skills
+  - LaTeX, Python, C, MATLAB, EXCEL
+  
+## Professional Experience
+  <div style="font-size:16px"><span style="float:right"> <em>Apr 2022 - </em> </span><font size="3"> <em>Scientific Research, Fudan University</em></div>
+  
+Unmanned Aerial Vehicle Formation Control(PID control; Reinforcement learning)
