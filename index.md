@@ -7,12 +7,12 @@ shy3765@163.com | Handan Campus, Fudan University, Shanghai
   
   - Language proficiency：English, Germany
 
- <strong>ECUST </strong>  &emsp;&emsp;&emsp;&emsp;&nbsp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  <em>Sep 2019 - Jun 2020</em>
+ <strong>ECUST </strong>  &nbsp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  <em>Sep 2019 - Jun 2020</em>
   
 - GPA : 3.61 / 4.0 ( Top 1 ) 
 - Honors/Awards : 2019-2020 The First Scholarship(Top 3% of the Department), The First Prize in the 14th Mathematics Grand Competition of ECUST
 
- <strong>Fudan University </strong>  &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&thinsp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <em>Sep 2020 - Jun 2024</em> 
+ <strong>Fudan University </strong>  &emsp;&nbsp;&nbsp;&thinsp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <em>Sep 2020 - Jun 2024</em> 
   
 Field of Study : Undergraduate in *Biomedical Engneering(BME)*
   
