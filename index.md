@@ -1,5 +1,5 @@
 ## Haoyang Su
-shy3765@163.com | Handan Campus, Fudan University, Shanghai
+haoyang.su@hoyant.com | Handan Campus, Fudan University, Shanghai
 
 ## EDUCATION
 ---
