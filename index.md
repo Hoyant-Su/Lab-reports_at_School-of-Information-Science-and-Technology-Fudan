@@ -30,3 +30,5 @@ Field of Study : Undergraduate in *Biomedical Engneering(BME)*
   <div style="font-size:16px"><span style="float:right"> <em>Apr 2022 - </em> </span><font size="3"> <em>Scientific Research, Fudan University</em></div>
   
 Unmanned Aerial Vehicle Formation Control(PID control; Reinforcement learning)
+
+## Accomplishment in Core Specialized Course
