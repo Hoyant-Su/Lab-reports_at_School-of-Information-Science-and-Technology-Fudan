@@ -1,34 +1,35 @@
-## Haoyang Su
-haoyang.su@hoyant.com | Handan Campus, Fudan University, Shanghai
+# 苏浩阳 LESSONS_IN_FDUCOLLEGE
+## 2020-2021 spring semester
+### Introduction to electronic systems
+  - Project1:GPIO &emsp;https://www.overleaf.com/read/vppgqvndvrrh
+  - Project2:I2C 接口与超声测距&emsp;https://www.overleaf.com/read/pxzwspbmhrsq
+  - Project3:数模转换&emsp;https://www.overleaf.com/read/wymjfwzzmkwn
+  - Project4:信号分析与处理 &emsp;https://www.overleaf.com/read/snpcnscstrnk
+  - Project5:PWM与直流电机驱动&emsp;https://www.overleaf.com/read/nmmsnkgnwffq
+  - Project6:组装小车
+  - Project7:定时与计数&emsp;https://www.overleaf.com/read/xnzqwkgyypmy
+  - Project8:自动控制&emsp;https://www.overleaf.com/read/gzcbvnnrzsyt
+  - Project9:图像与视频接口&emsp;https://www.overleaf.com/read/zbxmynqstqkq
+  - Final Test1:绕桩竞速&emsp; https://www.overleaf.com/read/cwyvxpkymcpd
+  - Final Test2:八字绕桩&emsp;https://www.overleaf.com/read/rtjydbnthjbw
+  - Mid-term Project:python 绘制 K 线及 GUI 股票设计&emsp;https://www.overleaf.com/read/fmpqwdkzbqnb
 
-## EDUCATION
----
- <strong>Caoyang NO.2 High School</strong> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <em>Sep 2016 - Jun 2019</em> 
-  
-  - Language proficiency：English, Germany
 
- <strong>ECUST </strong>  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  <em>Sep 2019 - Jun 2020</em>
-  
-- GPA : 3.61 / 4.0 ( Top 1 ) 
-- Honors/Awards : 2019-2020 The First Scholarship(Top 3% of the Department), The First Prize in the 14th Mathematics Grand Competition of ECUST
+ ## 2021-2022 fall semester
+ ### Analog and Digital Circuit Experiments 
+ - Experiment 1-2:晶体管单级放大器的分析 &emsp;https://www.overleaf.com/read/pszzpbkgdqqq
+ - Experiment 1-3:晶体管多级放大器的分析&emsp;https://www.overleaf.com/read/ncdmpsqmsmft
+ - Experiment 1-4:差动放大电路的分析&emsp;https://www.overleaf.com/read/dzttqscsnwyj
+ - Experiment 1-5:负反馈放大电路的分析&emsp;https://www.overleaf.com/read/czzxbfxnyssg
+ - Experiment 1-6:运算放大器及信号处理电路的分析&emsp;https://www.overleaf.com/read/vzqgkxjjfzgy
+ - Experiment 2-3:组合电路(七段译码与编码)&emsp;https://www.overleaf.com/read/vpkfcpqzsvrx
+ - Experiment 2-5:迭代设计法(全加器与比较器)&emsp;https://www.overleaf.com/read/knrcdqttvymm
+ - Experiment 2-6:同步计数器与应用&emsp;https://www.overleaf.com/read/frhhvvwdhkwk
+ - Experiment 2-7:状态机设计(自动售货机)&emsp;https://www.overleaf.com/read/spdcjjsxfrhd
 
- <strong>Fudan University </strong>  &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&thinsp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <em>Sep 2020 - Jun 2024</em> 
-  
-Field of Study : Undergraduate in *Biomedical Engneering(BME)*
-  
-- GPA : 3.64 / 4.0 ( Top 4 )；Professional GPA：3.93/4.0 
-- Honors/Awards : 2020-2021 Securities Technology Scholarship(Titled First Prize/Top 3% of the Department)
-  
-## Language proficiency
-  - English : CET-6, CET-4
-  - Chinese, Germany speaking
+ ### Microbes and Human Health
+ - Mid-term Experiment:平板观察和药敏实验&emsp;https://www.overleaf.com/read/xkshmsdfymtf
 
-## Computer Skills
-  - LaTeX, Python, C, MATLAB, EXCEL
-  
-## Professional Experience
-  <div style="font-size:16px"><span style="float:right"> <em>Apr 2022 - </em> </span><font size="3"> <em>Scientific Research, Fudan University</em></div>
-  
-Unmanned Aerial Vehicle Formation Control(PID control; Reinforcement learning)
-
-## Accomplishment in Core Specialized Course
+ ## 2021-2022 spring semester
+ ### High frequency electronic circuit A
+ - FM Radio Design &emsp; https://www.overleaf.com/read/ksmvmswncwfh
