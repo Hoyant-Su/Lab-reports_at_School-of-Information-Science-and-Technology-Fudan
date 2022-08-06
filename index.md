@@ -31,5 +31,5 @@
  - Mid-term Experiment:平板观察和药敏实验&emsp;https://www.overleaf.com/read/xkshmsdfymtf
 
  ## 2021-2022 spring semester
- ### High frequency electronic circuit A
+ ### High frequency electronic circuit B
  - FM Radio Design &emsp; https://www.overleaf.com/read/ksmvmswncwfh
