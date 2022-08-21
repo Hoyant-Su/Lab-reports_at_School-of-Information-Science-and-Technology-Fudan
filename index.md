@@ -37,3 +37,7 @@
 ## 2021-2022 spring semester
 ### High frequency electronic circuit B
   - FM 收音机电路设计及其仿真: 期末设计 &emsp; https://www.overleaf.com/read/ksmvmswncwfh
+
+## 2021-2022 summer term
+### Discrete Mathematics (知识梳理)
+- https://www.overleaf.com/read/zqkxvyqqqjsx
