@@ -8,7 +8,7 @@
   - Magnetic Field of the Circular Coil and the Helmholtz Coil &emsp;https://www.overleaf.com/read/wctmcbyrgqvh
   - LCR Series Resonant Circuit &emsp;https://www.overleaf.com/read/rypqyjgbjmjg
   - The Appliance of Digital Oscilloscopes &emsp;
-  - Measurement and Application of Voltammetric Characteristics of Diodes &emsp;
+  - Measurement and Application of Voltammetric Characteristics of Diodes &emsp;https://www.overleaf.com/read/hdrvjhkttxjp
   - Quantum Theory &emsp;
   - X-ray Fluoroscopy and NaCl Crystal Structure Analysis &emsp;
   - Measurement of the Focal Length of Lens &emsp;
