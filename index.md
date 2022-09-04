@@ -14,7 +14,7 @@
   - Measurement of the Focal Length of Lens &emsp;https://www.overleaf.com/read/dxqmnvmptgjv
   - Newton’s Ring &emsp;https://www.overleaf.com/read/mjcnphtqbxqf
   - Computer Measurements &emsp;https://www.overleaf.com/read/czrdvthbxpwt
-  - Usage of Computer Measurement in Sound Waves and Beats &emsp;
+  - Usage of Computer Measurement in Sound Waves and Beats &emsp;https://www.overleaf.com/read/rvrgtnpmmgcz
   - Measurement of Moment of inertia by Torsion Pendulum &emsp;
   - Heat of Vaporation of Liquid Nitrogen &emsp;
 ### Introduction to electronic systems
