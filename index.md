@@ -13,7 +13,7 @@
   - X-ray Fluoroscopy and NaCl Crystal Structure Analysis &emsp;https://www.overleaf.com/read/ptthzhcxdgkt
   - Measurement of the Focal Length of Lens &emsp;https://www.overleaf.com/read/dxqmnvmptgjv
   - Newton’s Ring &emsp;https://www.overleaf.com/read/mjcnphtqbxqf
-  - Computer Measurements &emsp;
+  - Computer Measurements &emsp;https://www.overleaf.com/read/czrdvthbxpwt
   - Usage of Computer Measurement in Sound Waves and Beats &emsp;
   - Measurement of Moment of inertia by Torsion Pendulum &emsp;
   - Heat of Vaporation of Liquid Nitrogen &emsp;
