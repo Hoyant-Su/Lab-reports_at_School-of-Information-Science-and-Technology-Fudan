@@ -9,7 +9,7 @@
   - LCR Series Resonant Circuit &emsp;https://www.overleaf.com/read/rypqyjgbjmjg
   - The Appliance of Digital Oscilloscopes &emsp;
   - Measurement and Application of Voltammetric Characteristics of Diodes &emsp;https://www.overleaf.com/read/hdrvjhkttxjp
-  - Quantum Theory &emsp;
+  - Quantum Theory &emsp;https://www.overleaf.com/read/yykgnqvsbfwy
   - X-ray Fluoroscopy and NaCl Crystal Structure Analysis &emsp;
   - Measurement of the Focal Length of Lens &emsp;
   - Newton’s Ring &emsp;
