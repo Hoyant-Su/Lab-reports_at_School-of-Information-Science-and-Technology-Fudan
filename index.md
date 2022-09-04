@@ -4,6 +4,8 @@
   - Link Sharing: https://www.overleaf.com/read/hvdsttdbndgp
 
 ## 2020-2021 spring semester
+### Fundamental Physics Experiments
+  - Magnetic Field of the Circular Coil and the Helmholtz Coil &emsp; https://www.overleaf.com/read/rypqyjgbjmjg
 ### Introduction to electronic systems
   - Project1: GPIO &emsp;https://www.overleaf.com/read/vppgqvndvrrh
   - Project2: I2C 接口与超声测距&emsp;https://www.overleaf.com/read/pxzwspbmhrsq
