@@ -5,7 +5,18 @@
 
 ## 2020-2021 spring semester
 ### Fundamental Physics Experiments
-  - Magnetic Field of the Circular Coil and the Helmholtz Coil &emsp; https://www.overleaf.com/read/rypqyjgbjmjg
+  - Magnetic Field of the Circular Coil and the Helmholtz Coil &emsp;https://www.overleaf.com/read/wctmcbyrgqvh
+  - LCR Series Resonant Circuit &emsp;https://www.overleaf.com/read/rypqyjgbjmjg
+  - The Appliance of Digital Oscilloscopes &emsp;
+  - Measurement and Application of Voltammetric Characteristics of Diodes &emsp;
+  - Quantum Theory &emsp;
+  - X-ray Fluoroscopy and NaCl Crystal Structure Analysis &emsp;
+  - Measurement of the Focal Length of Lens &emsp;
+  - Newton’s Ring &emsp;
+  - Computer Measurements &emsp;
+  - Usage of Computer Measurement in Sound Waves and Beats &emsp;
+  - Measurement of Moment of inertia by Torsion Pendulum &emsp;
+  - Heat of Vaporation of Liquid Nitrogen &emsp;
 ### Introduction to electronic systems
   - Project1: GPIO &emsp;https://www.overleaf.com/read/vppgqvndvrrh
   - Project2: I2C 接口与超声测距&emsp;https://www.overleaf.com/read/pxzwspbmhrsq
