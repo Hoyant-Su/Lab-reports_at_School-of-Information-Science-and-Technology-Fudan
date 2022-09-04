@@ -11,7 +11,7 @@
   - Measurement and Application of Voltammetric Characteristics of Diodes &emsp;https://www.overleaf.com/read/hdrvjhkttxjp
   - Quantum Theory &emsp;https://www.overleaf.com/read/yykgnqvsbfwy
   - X-ray Fluoroscopy and NaCl Crystal Structure Analysis &emsp;https://www.overleaf.com/read/ptthzhcxdgkt
-  - Measurement of the Focal Length of Lens &emsp;
+  - Measurement of the Focal Length of Lens &emsp;https://www.overleaf.com/read/dxqmnvmptgjv
   - Newton’s Ring &emsp;
   - Computer Measurements &emsp;
   - Usage of Computer Measurement in Sound Waves and Beats &emsp;
