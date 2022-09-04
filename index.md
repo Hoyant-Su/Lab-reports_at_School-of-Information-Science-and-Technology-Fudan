@@ -10,7 +10,7 @@
   - The Appliance of Digital Oscilloscopes &emsp;
   - Measurement and Application of Voltammetric Characteristics of Diodes &emsp;https://www.overleaf.com/read/hdrvjhkttxjp
   - Quantum Theory &emsp;https://www.overleaf.com/read/yykgnqvsbfwy
-  - X-ray Fluoroscopy and NaCl Crystal Structure Analysis &emsp;
+  - X-ray Fluoroscopy and NaCl Crystal Structure Analysis &emsp;https://www.overleaf.com/read/ptthzhcxdgkt
   - Measurement of the Focal Length of Lens &emsp;
   - Newton’s Ring &emsp;
   - Computer Measurements &emsp;
