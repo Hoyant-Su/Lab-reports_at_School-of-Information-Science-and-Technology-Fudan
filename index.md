@@ -16,7 +16,7 @@
   - Computer Measurements &emsp;https://www.overleaf.com/read/czrdvthbxpwt
   - Usage of Computer Measurement in Sound Waves and Beats &emsp;https://www.overleaf.com/read/rvrgtnpmmgcz
   - Measurement of Moment of inertia by Torsion Pendulum &emsp;https://www.overleaf.com/read/zqrgtspzdcpj
-  - Heat of Vaporation of Liquid Nitrogen &emsp;
+  - Heat of Vaporation of Liquid Nitrogen &emsp;https://www.overleaf.com/read/vqxpvywhnmyy
 ### Introduction to electronic systems
   - Project1: GPIO &emsp;https://www.overleaf.com/read/vppgqvndvrrh
   - Project2: I2C 接口与超声测距&emsp;https://www.overleaf.com/read/pxzwspbmhrsq
