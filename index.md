@@ -40,6 +40,7 @@
   - Experiment 1-5: 负反馈放大电路的分析&emsp;https://www.overleaf.com/read/czzxbfxnyssg
   - Experiment 1-6: 运算放大器及信号处理电路的分析&emsp;https://www.overleaf.com/read/vzqgkxjjfzgy
   - Experiment 2-3: 组合电路(七段译码与编码)&emsp;https://www.overleaf.com/read/vpkfcpqzsvrx
+  - Experiment 2-4: 层次化的设计方法（全加器）&emsp;https://www.overleaf.com/read/ykszyqqxgggr
   - Experiment 2-5: 迭代设计法(全加器与比较器)&emsp;https://www.overleaf.com/read/knrcdqttvymm
   - Experiment 2-6: 同步计数器与应用&emsp;https://www.overleaf.com/read/frhhvvwdhkwk
   - Experiment 2-7: 状态机设计(自动售货机)&emsp;https://www.overleaf.com/read/spdcjjsxfrhd
