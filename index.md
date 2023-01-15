@@ -66,3 +66,10 @@
  - Experiment3: 确定信号通过LTI系统与滤波 https://www.overleaf.com/read/hrfwtqhsnsdw
  - Experiment4: 信号的采样与恢复 https://www.overleaf.com/read/khqjqpjwynsf
  - Experiment5: 信号的调制与解调 https://www.overleaf.com/read/wwpxwmrnhddc
+
+### MicroComputer Architecture and Interfacing Experiments
+ - Experiment1: I/O 口控制实验 https://www.overleaf.com/read/twskqkxgmmrd
+ - Experiment2: 定时器实验 https://www.overleaf.com/read/zkkpgqcgmptr
+ - Experiment3: 直流电机与AD转换实验 https://www.overleaf.com/read/drhvsgkqfhkx
+ - Experiment4: 串行D/A及串行通信实验 https://www.overleaf.com/read/tgbbpcxhfsjc
+ - Experiment5: 键盘与数码管显示实验 https://www.overleaf.com/read/mbbthxyhkysj
