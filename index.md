@@ -79,4 +79,7 @@
  - Experiment1 - Experiment5: https://www.overleaf.com/read/byhjkcgbjzyt
 
 ### Medical Ultrasound
-- Report: 1D FDTD & 2D FDTD https://www.overleaf.com/read/bgckpwwtvkyy 
+- Report: 1D FDTD & 2D FDTD https://www.overleaf.com/read/bgckpwwtvkyy
+
+### Computer Architecture
+- 处理器设计 & 程序优化：https://www.overleaf.com/read/hwzmtgjhbwvt
