@@ -1,0 +1,116 @@
+clear;clc;
+
+% 参数设置
+Nx = 2000; Nz = 1000; Nt = 1000;  % 将Nt的值从12000增加到24000
+dz = 0.001;
+C0 = 1480;
+
+
+dt = 0.7 * dz / C0;
+
+
+left_start = Nz/10 * 3;
+top_start = 4 * Nx/20;
+bottom_start = 6 * Nx/20;
+
+% 创建一个具有相对恒定声阻抗的二维平面
+rho0 = 1000;
+rho = rho0 * ones(Nx, Nz);
+
+
+
+
+rho = image_to_matrix('2.png');
+
+rho = resize_image('2.png', Nx, Nz);
+
+rho = adjust_image(rho);
+
+%在平面上添加一些具有不同声阻抗的散点
+num_scatterers = 400;
+scatterer_density = 650;
+scatterer_size = 3;
+rng(0);
+scatterer_positions = randi([1 + scatterer_size, Nx - 1 - scatterer_size], num_scatterers, 2);
+for i = 1:num_scatterers
+    rho(scatterer_positions(i, 1) - scatterer_size : scatterer_positions(i, 1) + scatterer_size, ...
+        scatterer_positions(i, 2) - scatterer_size : scatterer_positions(i, 2) + scatterer_size) = scatterer_density;
+end
+
+
+
+rho(:,1: 10 * Nz/50) = 1000;
+
+
+
+c = C0 * ones(Nx, Nz);
+p = zeros(Nx, Nz);
+
+
+
+ux = zeros(Nx, Nz);
+uz = zeros(Nx, Nz);
+
+
+for n = 1:Nt-1
+
+    if n >= 1 && n <= 30  % 
+        p(top_start,left_start) = exp(-(n-15)^2/50);
+        p(bottom_start,left_start) = exp(-(n-15)^2/50);
+    end
+
+    
+
+
+    for i = top_start:bottom_start
+        for j = left_start:Nz-1
+            ux(i, j) = ux(i, j) - dt / rho(i, j) / dz * (p(i + 1, j) - p(i, j));
+            uz(i, j) = uz(i, j) - dt / rho(i, j) / dz * (p(i, j + 1) - p(i, j));
+        end
+    end
+    
+        
+    for i = top_start+1:bottom_start
+        for j = left_start+1:Nz-2
+             p(i, j) = p(i, j) - dt * C0^2 / dz *rho(i,j) * (ux(i, j) - ux(i - 1, j) + uz(i, j) - uz(i, j - 1));
+        end
+    end
+
+
+
+   % p(:, 1:left_start-1) = 0;
+
+
+
+
+
+    if mod(n, 100) == 1
+        subplot(1, 2, 1);
+        imagesc(p(:,:));
+        shading interp;
+        colormap('hot');
+        axis equal;
+        axis([left_start, bottom_start - top_start +left_start, top_start, bottom_start]);
+        set(gca, 'Ydir', 'reverse');
+        xlabel('x'); ylabel('z');
+        title('FDTD（2D）');
+        colorbar;
+        caxis([-0.02 0.02]);
+        
+        subplot(1, 2, 2);
+        colormap('gray'); % 在这里设置颜色映射
+        imagesc(rho);
+        colorbar;
+        axis equal;
+        axis([left_start, 4*Nx/10+left_start, top_start, bottom_start]);
+        set(gca, 'Ydir', 'reverse');
+        xlabel('x'); ylabel('z');
+        title('声阻抗分布图');
+    
+        
+        drawnow;
+
+    end
+end
+
+
