@@ -1,7 +1,7 @@
 <div style="background-image: url('1.jpg'); background-repeat: no-repeat; background-size: cover; background-color: transparent;">
 
 
-# 苏浩阳 LESSONS IN FDUCOLLEGE
+<!-- # 苏浩阳 LESSONS IN FDUCOLLEGE -->
 ## 2019-2020 summer term
 ### 基于 Charles Hermite 对数 e 的无理性证明方法及其延伸命题的探讨
   - Link Sharing: https://www.overleaf.com/read/hvdsttdbndgp
