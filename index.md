@@ -1,4 +1,4 @@
-background-image: url('[path/to/your/background.png](https://github.com/Hoyant-Su/Hoyant-Su.github.io/blob/main/1.jpg)')
+<link rel="stylesheet" href="styles.css">
 
 
 # 苏浩阳 LESSONS IN FDUCOLLEGE
