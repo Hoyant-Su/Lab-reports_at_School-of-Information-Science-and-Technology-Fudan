@@ -1,11 +1,4 @@
-body {
-  background-image: url('1.jpg'); 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: transparent;
-  background-position: center;
-}
+
 .background-gif {
   position: absolute;
   width: 100%;
