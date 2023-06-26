@@ -4,4 +4,5 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: transparent;
+  background-position: center;
 }
