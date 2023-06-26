@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles.css">
+<div style="background-image: url('1.jpg'); background-repeat: no-repeat; background-size: cover; background-color: transparent;">
 
 
 # 苏浩阳 LESSONS IN FDUCOLLEGE
@@ -86,3 +86,6 @@
 
 ### Computer Architecture
 - 处理器设计 & 程序优化：https://www.overleaf.com/read/hwzmtgjhbwvt
+
+
+</div>
