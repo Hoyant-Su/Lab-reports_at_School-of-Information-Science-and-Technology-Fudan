@@ -1,32 +1,39 @@
- <!-- <div style="background-image: url('3.png'); background-repeat: no-repeat; background-size: cover; background-color: transparent; color: white;"> -->
-<div style="background-image: url('3_00(1).png'); background-repeat: no-repeat; background-size: cover; background-color: transparent;">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hy Su LESSONS IN FDUCOLLEGE (Overleaf)</title>
+    <style>
+        body {
+            background-image: url('3_00(1).png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: transparent;
+        }
+    </style>
+    <script>
+        function password() {
+            var testV = 1;
+            var pass1 = prompt('Haoyang Su课程主页，请输入密码:', '');
+            while (testV < 3) {
+                if (!pass1)
+                    history.go(-1);
+                if (pass1 == "su") {
+                    alert('密码正确!');
+                    break;
+                }
+                testV += -1;
+                var pass1 = prompt('密码错误!请重新输入:');
+            }
+            if (pass1 != "password" & testV == 3)
+                history.go(-1);
+            return " ";
+        }
 
-<!-- 网页内容 -->
-
-<SCRIPT language=JavaScript> 
- 
-function password() { 
-var testV = 1; 
-var pass1 = prompt('Haoyang Su课程主页，请输入密码:',''); 
-while (testV < 3) { 
-if (!pass1) 
-history.go(-1); 
-if (pass1 == "su") { 
-alert('密码正确!'); 
-break; 
-} 
-testV+=-1; 
-var pass1 = prompt('密码错误!请重新输入:'); 
-} 
-if (pass1!="password" & testV ==3) 
-history.go(-1); 
-return " "; 
-} 
- 
-document.write(password()); 
- 
-</SCRIPT>
-
+        document.write(password());
+    </script>
+</head>
+<body>
 
 
 <h1>Hy Su LESSONS IN FDUCOLLEGE (Overleaf)</h1>
@@ -172,4 +179,5 @@ Processor Design & Program Optimization：<a href = "https://www.overleaf.com/re
 
 </div>
 
-
+</body>
+</html>
