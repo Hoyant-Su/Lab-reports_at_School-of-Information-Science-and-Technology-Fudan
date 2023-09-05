@@ -1,188 +1,396 @@
-  <!-- <div style="background-image: url('3.png'); background-repeat: no-repeat; background-size: cover; background-color: transparent; color: white;"> -->
-<div style="background-image: url('3_00(1).png'); background-repeat: no-repeat; background-size: cover; background-color: transparent;">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>html5跟随鼠标炫酷网站引导页动画 - 何问起</title>
+<link href="http://hovertree.com/texiao/html5/index/hovertreewelcome.css" type="text/css" rel="stylesheet" />
+</head>
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
 
-<!-- 网页内容 -->
+<div id="hovertreecontainer">
 
-<SCRIPT language=JavaScript> 
- 
-function password() { 
-var testV = 1; 
-var pass1 = prompt('Haoyang Su课程主页，请输入密码:',''); 
-while (testV < 3) { 
-if (!pass1) 
-history.go(-1); 
-if (pass1 == "su") { 
-alert('密码正确!'); 
-break; 
-} 
-testV+=-1; 
-var pass1 = prompt('密码错误!请重新输入:'); 
-} 
-if (pass1!="password" & testV ==3) 
-history.go(-1); 
-return " "; 
-} 
- 
-document.write(password()); 
- 
-</SCRIPT>
-
-
-
-
-	<div id="pionter"></div>
-		<script>
-		window.onload = function(){
-			var pionter = document.querySelector('#pionter');
-			window.onmousemove =function(e){					
-				pionter['style']['left'] = e.clientX +'px';
-				pionter['style']['top'] = e.clientY +'px'; 
-			}; 
-		}; 
-	</script>
-
-  
-<h1>Hy Su LESSONS IN FDUCOLLEGE (Overleaf)</h1>
-<h2>2019-2020 summer term</h2>
-<h3>Based on the Discussion of  Charles Hermite on the Proof of the Irrationality of Euler's Number e and its Extended Propositions</h3>
-<ul>
-  <li>Link Sharing: <a href="https://www.overleaf.com/read/hvdsttdbndgp">https://www.overleaf.com/read/hvdsttdbndgp</a></li>
-</ul>
-
-<h2>2020-2021 spring semester</h2>
-<h3>Fundamental Physics Experiments</h3>
-<ul>
-  <li>Magnetic Field of the Circular Coil and the Helmholtz Coil: <a href="https://www.overleaf.com/read/wctmcbyrgqvh">https://www.overleaf.com/read/wctmcbyrgqvh</a></li>
-  <li>LCR Series Resonant Circuit: <a href="https://www.overleaf.com/read/rypqyjgbjmjg">https://www.overleaf.com/read/rypqyjgbjmjg</a></li>
-  <li>The Appliance of Digital Oscilloscopes</li>
-  <li>Measurement and Application of Voltammetric Characteristics of Diodes: <a href="https://www.overleaf.com/read/hdrvjhkttxjp">https://www.overleaf.com/read/hdrvjhkttxjp</a></li>
-  <li>Quantum Theory: <a href="https://www.overleaf.com/read/yykgnqvsbfwy">https://www.overleaf.com/read/yykgnqvsbfwy</a></li>
-  <li>X-ray Fluoroscopy and NaCl Crystal Structure Analysis: <a href="https://www.overleaf.com/read/ptthzhcxdgkt">https://www.overleaf.com/read/ptthzhcxdgkt</a></li>
-  <li>Measurement of the Focal Length of Lens: <a href="https://www.overleaf.com/read/dxqmnvmptgjv">https://www.overleaf.com/read/dxqmnvmptgjv</a></li>
-  <li>Newton’s Ring: <a href="https://www.overleaf.com/read/mjcnphtqbxqf">https://www.overleaf.com/read/mjcnphtqbxqf</a></li>
-  <li>Computer Measurements: <a href="https://www.overleaf.com/read/czrdvthbxpwt">https://www.overleaf.com/read/czrdvthbxpwt</a></li>
-  <li>Usage of Computer Measurement in Sound Waves and Beats: <a href="https://www.overleaf.com/read/rvrgtnpmmgcz">https://www.overleaf.com/read/rvrgtnpmmgcz</a></li>
-  <li>Measurement of Moment of inertia by Torsion Pendulum: <a href="https://www.overleaf.com/read/zqrgtspzdcpj">https://www.overleaf.com/read/zqrgtspzdcpj</a></li>
-  <li>Heat of Vaporation of Liquid Nitrogen: <a href="https://www.overleaf.com/read/vqxpvywhnmyy">https://www.overleaf.com/read/vqxpvywhnmyy</a></li>
-</ul>
-
-<h3>Introduction to electronic systems</h3>
-<ul>
-  <li>Project1: GPIO: <a href="https://www.overleaf.com/read/vppgqvndvrrh">https://www.overleaf.com/read/vppgqvndvrrh</a></li>
-  <li>Project2: I2C Interface and Ultrasonic Distance Measurement: <a href="https://www.overleaf.com/read/pxzwspbmhrsq">https://www.overleaf.com/read/pxzwspbmhrsq</a></li>
-  <li>Project3: Analog-to-Digital Conversion: <a href="https://www.overleaf.com/read/wymjfwzzmkwn">https://www.overleaf.com/read/wymjfwzzmkwn</a></li>
-  <li>Project4: Signal Analysis and Processing: <a href="https://www.overleaf.com/read/snpcnscstrnk">https://www.overleaf.com/read/snpcnscstrnk</a></li>
-  <li>Project5: PWM and DC Motor Driving: <a href="https://www.overleaf.com/read/nmmsnkgnwffq">https://www.overleaf.com/read/nmmsnkgnwffq</a></li>
-  <li>Project6: Car Assembling</li>
-  <li>Project7: Timing and Counting: <a href="https://www.overleaf.com/read/xnzqwkgyypmy">https://www.overleaf.com/read/xnzqwkgyypmy</a></li>
-  <li>Project8: Automatic Control: <a href="https://www.overleaf.com/read/gzcbvnnrzsyt">https://www.overleaf.com/read/gzcbvnnrzsyt</a></li>
-  <li>Project9: Image and Video Interface: <a href="https://www.overleaf.com/read/zbxmynqstqkq">https://www.overleaf.com/read/zbxmynqstqkq</a></li>
-  <li>Final Test1: Obstacle Course Racing: <a href="https://www.overleaf.com/read/cwyvxpkymcpd">https://www.overleaf.com/read/cwyvxpkymcpd</a></li>
-  <li>Final Test2: Figure-Eight Obstacle Course Racing: <a href="https://www.overleaf.com/read/rtjydbnthjbw">https://www.overleaf.com/read/rtjydbnthjbw</a></li>
-  <li>Mid-term Project: Python Drawing K-Line and GUI Stock Design: <a href="https://www.overleaf.com/read/fmpqwdkzbqnb">https://www.overleaf.com/read/fmpqwdkzbqnb</a></li>
-</ul>
-
-<h2>2021-2022 fall semester</h2>
-<h3>Analog and Digital Circuit Experiments</h3>
-
-<ul>
-  <li>Experiment 1-2: Analysis of Transistor Single-Stage Amplifier: <a href="https://www.overleaf.com/read/pszzpbkgdqqq">https://www.overleaf.com/read/pszzpbkgdqqq</a></li>
-  <li>Experiment 1-3: Analysis of Transistor Multi-Stage Amplifier: <a href="https://www.overleaf.com/read/ncdmpsqmsmft">https://www.overleaf.com/read/ncdmpsqmsmft</a></li>
-  <li>Experiment 1-4: Analysis of Differential Amplifier Circuit: <a href="https://www.overleaf.com/read/dzttqscsnwyj">https://www.overleaf.com/read/dzttqscsnwyj</a></li>
-  <li>Experiment 1-5: Analysis of Negative Feedback Amplifier Circuit: <a href="https://www.overleaf.com/read/czzxbfxnyssg">https://www.overleaf.com/read/czzxbfxnyssg</a></li>
-  <li>Experiment 1-6: Analysis of Operational Amplifiers and Signal Processing Circuits: <a href="https://www.overleaf.com/read/vzqgkxjjfzgy">https://www.overleaf.com/read/vzqgkxjjfzgy</a></li>
-  <li>Experiment 2-3: Combination Circuits (Seven-Segment Decoding and Encoding): <a href="https://www.overleaf.com/read/vpkfcpqzsvrx">https://www.overleaf.com/read/vpkfcpqzsvrx</a></li>
-  <li>Experiment 2-4: Hierarchical Design Method (Full Adder): <a href="https://www.overleaf.com/read/ykszyqqxgggr">https://www.overleaf.com/read/ykszyqqxgggr</a></li>
-  <li>Experiment 2-5: Iterative Design Method (Full Adder and Comparator): <a href="https://www.overleaf.com/read/knrcdqttvymm">https://www.overleaf.com/read/knrcdqttvymm</a></li>
-  <li>Experiment 2-6: Synchronous Counters and Applications: <a href="https://www.overleaf.com/read/frhhvvwdhkwk">https://www.overleaf.com/read/frhhvvwdhkwk</a></li>
-  <li>Experiment 2-7: State Machine Design (Automatic Vending Machine): <a href="https://www.overleaf.com/read/spdcjjsxfrhd">https://www.overleaf.com/read/spdcjjsxfrhd</a></li>
-</ul>
-
-<!--
-<ul>
-  <li>Experiment 1-2: 晶体管单级放大器的分析: <a href="https://www.overleaf.com/read/pszzpbkgdqqq">https://www.overleaf.com/read/pszzpbkgdqqq</a></li>
-  <li>Experiment 1-3: 晶体管多级放大器的分析: <a href="https://www.overleaf.com/read/ncdmpsqmsmft">https://www.overleaf.com/read/ncdmpsqmsmft</a></li>
-  <li>Experiment 1-4: 差动放大电路的分析: <a href="https://www.overleaf.com/read/dzttqscsnwyj">https://www.overleaf.com/read/dzttqscsnwyj</a></li>
-  <li>Experiment 1-5: 负反馈放大电路的分析: <a href="https://www.overleaf.com/read/czzxbfxnyssg">https://www.overleaf.com/read/czzxbfxnyssg</a></li>
-  <li>Experiment 1-6: 运算放大器及信号处理电路的分析: <a href="https://www.overleaf.com/read/vzqgkxjjfzgy">https://www.overleaf.com/read/vzqgkxjjfzgy</a></li>
-  <li>Experiment 2-3: 组合电路(七段译码与编码): <a href="https://www.overleaf.com/read/vpkfcpqzsvrx">https://www.overleaf.com/read/vpkfcpqzsvrx</a></li>
-  <li>Experiment 2-4: 层次化的设计方法（全加器）: <a href="https://www.overleaf.com/read/ykszyqqxgggr">https://www.overleaf.com/read/ykszyqqxgggr</a></li>
-  <li>Experiment 2-5: 迭代设计法(全加器与比较器): <a href="https://www.overleaf.com/read/knrcdqttvymm">https://www.overleaf.com/read/knrcdqttvymm</a></li>
-  <li>Experiment 2-6: 同步计数器与应用: <a href="https://www.overleaf.com/read/frhhvvwdhkwk">https://www.overleaf.com/read/frhhvvwdhkwk</a></li>
-  <li>Experiment 2-7: 状态机设计(自动售货机): <a href="https://www.overleaf.com/read/spdcjjsxfrhd">https://www.overleaf.com/read/spdcjjsxfrhd</a></li>
-</ul>
--->
-<h3>Microbes and Human Health</h3>
-<ul>
-  <li>Mid-term Experiment: Flat Observation and Drug Sensitivity Experiment: <a href="https://www.overleaf.com/read/xkshmsdfymtf">https://www.overleaf.com/read/xkshmsdfymtf</a></li>
-</ul>
-
-<h2>2021-2022 spring semester</h2>
-<h3>High frequency electronic circuit B</h3>
-<ul>
-  <li>FM Radio Circuit Design and Simulation: Final Project: <a href="https://www.overleaf.com/read/ksmvmswncwfh">https://www.overleaf.com/read/ksmvmswncwfh</a></li>
-</ul>
-
-<h2>2021-2022 summer term</h2>
-<h3>Discrete Mathematics (Knowledge Review)</h3>
-<a href="https://www.overleaf.com/read/ncfjqyqmnvcs">https://www.overleaf.com/read/ncfjqyqmnvcs</a>
-
-<h3>Digital System Design (Knowledge Review)</h3>
-<a href="https://www.overleaf.com/read/pdrqkszvtctt">https://www.overleaf.com/read/pdrqkszvtctt</a>
-
-<h2>2022-2023 fall semester</h2>
-<h3>The Basic of Biomedical Engineering</h3>
-Homework: <a href = "https://www.overleaf.com/read/hppdksxxnsvt">https://www.overleaf.com/read/hppdksxxnsvt</a>
-
-<h3>Experiments in Signals and Systems</h3>
-<ul>
-<li>Experiment 1: Fundamentals of Signal Time-Frequency Domain Analysis <a href="https://www.overleaf.com/read/sdrqqbcrsstr">https://www.overleaf.com/read/sdrqqbcrsstr</a></li>
-<li>Experiment 2: Signal Synthesis and Decomposition <a href="https://www.overleaf.com/read/qcxcstzvnpjj">https://www.overleaf.com/read/qcxcstzvnpjj</a></li>
-<li>Experiment 3: Determining Signals through LTI Systems and Filtering <a href="https://www.overleaf.com/read/hrfwtqhsnsdw">https://www.overleaf.com/read/hrfwtqhsnsdw</a></li>
-<li>Experiment 4: Signal Sampling and Reconstruction <a href="https://www.overleaf.com/read/khqjqpjwynsf">https://www.overleaf.com/read/khqjqpjwynsf</a></li>
-<li>Experiment 5: Signal Modulation and Demodulation <a href="https://www.overleaf.com/read/wwpxwmrnhddc">https://www.overleaf.com/read/wwpxwmrnhddc</a></li>
-</ul>
-<h3>MicroComputer Architecture and Interfacing Experiments</h3>
-<ul>
-<li>Experiment 1: I/O Port Control Experiment <a href="https://www.overleaf.com/read/twskqkxgmmrd">https://www.overleaf.com/read/twskqkxgmmrd</a></li>
-<li>Experiment 2: Timer Experiment <a href="https://www.overleaf.com/read/zkkpgqcgmptr">https://www.overleaf.com/read/zkkpgqcgmptr</a></li>
-<li>Experiment 3: DC Motor and AD Conversion Experiment <a href="https://www.overleaf.com/read/drhvsgkqfhkx">https://www.overleaf.com/read/drhvsgkqfhkx</a></li>
-<li>Experiment 4: Serial D/A and Serial Communication Experiment <a href="https://www.overleaf.com/read/tgbbpcxhfsjc">https://www.overleaf.com/read/tgbbpcxhfsjc</a></li>
-<li>Experiment 5: Keyboard and Digital Display Experiment <a href="https://www.overleaf.com/read/mbbthxyhkysj">https://www.overleaf.com/read/mbbthxyhkysj</a></li>
-</ul>
-
-
-<!--  
-<h3>Experiments in Signals and Systems</h3>
-  <ul>
-<li>Experiment1: 信号时频域分析基础 <a href = "https://www.overleaf.com/read/sdrqqbcrsstr">https://www.overleaf.com/read/sdrqqbcrsstr</a></li>
-<li>Experiment2: 信号的合成与分解 <a href = "https://www.overleaf.com/read/qcxcstzvnpjj">https://www.overleaf.com/read/qcxcstzvnpjj</a></li>
-<li>Experiment3: 确定信号通过LTI系统与滤波 <a href = "https://www.overleaf.com/read/hrfwtqhsnsdw">https://www.overleaf.com/read/hrfwtqhsnsdw</a></li>
-<li>Experiment4: 信号的采样与恢复 <a href = "https://www.overleaf.com/read/khqjqpjwynsf">https://www.overleaf.com/read/khqjqpjwynsf</a></li>
-<li>Experiment5: 信号的调制与解调 <a href = "https://www.overleaf.com/read/wwpxwmrnhddc">https://www.overleaf.com/read/wwpxwmrnhddc</a></li>
-</ul>
-<h3>MicroComputer Architecture and Interfacing Experiments</h3>
- <ul>
-<li>Experiment1: I/O 口控制实验 <a href = "https://www.overleaf.com/read/twskqkxgmmrd">https://www.overleaf.com/read/twskqkxgmmrd</a></li>
-<li>Experiment2: 定时器实验 <a href = "https://www.overleaf.com/read/zkkpgqcgmptr">https://www.overleaf.com/read/zkkpgqcgmptr</a></li>
-<li>Experiment3: 直流电机与AD转换实验 <a href = "https://www.overleaf.com/read/drhvsgkqfhkx">https://www.overleaf.com/read/drhvsgkqfhkx</a></li>
-<li>Experiment4: 串行D/A及串行通信实验 <a href = "www.overleaf.com/read/tgbbpcxhfsjc">https://www.overleaf.com/read/tgbbpcxhfsjc</a></li>
-<li>Experiment5: 键盘与数码管显示实验 <a href = "https://www.overleaf.com/read/mbbthxyhkysj">https://www.overleaf.com/read/mbbthxyhkysj</a></li>
- </ul>
--->  
-<h2>2022-2023 spring semester</h2>
-<h3>High Frequency Circuit Experiment</h3>
-  <ul>
-<li>Experiment1 - Experiment5: <a href = "https://www.overleaf.com/read/byhjkcgbjzyt">https://www.overleaf.com/read/byhjkcgbjzyt</a></li>
-</ul>
-<h3>Medical Ultrasound</h3>
-Report: 1D FDTD & 2D FDTD <a href = "https://www.overleaf.com/read/bgckpwwtvkyy">https://www.overleaf.com/read/bgckpwwtvkyy</a>
-
-<h3>Computer Architecture</h3>
-Processor Design & Program Optimization：<a href = "https://www.overleaf.com/read/hwzmtgjhbwvt">https://www.overleaf.com/read/hwzmtgjhbwvt</a>
-  
-
-
-
+<div>
+<h1 id="h1">何问起 </h1>
+<h2 id="h2"> 想问候，不知从何问起，就直接说喜欢你！</h2>
+<h3 id="h2">hovertree.com为您提供前端特效,ASP.NET等设计开发资料。<a href="http://hovertree.com/hvtart/bjae/onxw4ahp.htm">原文</a> <a href="http://hovertree.com/texiao/">特效</a></h3>
+<p> </p>
+<p><strong><a href="http://hovertree.com/">进入主站</a></strong></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</div>
 
 </div>
+
+<canvas id="canvas"></canvas>
+<audio autoplay="autoplay">
+<source src="http://hovertree.com" type="audio/ogg">
+<source src="http://cms.hovertree.com/hovertreesound/hovertreexihuanni.mp3" type="audio/mpeg">
+您的浏览器不支持播放音乐。请用支持html5的浏览器打开,例如chrome或火狐或者新版IE等。
+<br />何问起 hovertree.com
+</audio><script type="text/javascript" src="http://hovertree.com/texiao/html5/index/hovertreewelcome.js">
+</script>
+<script type="text/javascript">
+
+; (function (window) {
+
+var ctx,
+hue,
+logo,
+form,
+buffer,
+target = {},
+tendrils = [],
+settings = {};
+
+settings.debug = true;
+settings.friction = 0.5;
+settings.trails = 20;
+settings.size = 50;
+settings.dampening = 0.25;
+settings.tension = 0.98;
+
+Math.TWO_PI = Math.PI * 2;
+
+// ========================================================================================
+// Oscillator 何问起
+// ----------------------------------------------------------------------------------------
+
+function Oscillator(options) {
+this.init(options || {});
+}
+
+Oscillator.prototype = (function () {
+
+var value = 0;
+
+return {
+
+init: function (options) {
+this.phase = options.phase || 0;
+this.offset = options.offset || 0;
+this.frequency = options.frequency || 0.001;
+this.amplitude = options.amplitude || 1;
+},
+
+update: function () {
+this.phase += this.frequency;
+value = this.offset + Math.sin(this.phase) * this.amplitude;
+return value;
+},
+
+value: function () {
+return value;
+}
+};
+
+})();
+
+// ========================================================================================
+// Tendril hovertree.com
+// ----------------------------------------------------------------------------------------
+
+function Tendril(options) {
+this.init(options || {});
+}
+
+Tendril.prototype = (function () {
+
+function Node() {
+this.x = 0;
+this.y = 0;
+this.vy = 0;
+this.vx = 0;
+}
+
+return {
+
+init: function (options) {
+
+this.spring = options.spring + (Math.random() * 0.1) - 0.05;
+this.friction = settings.friction + (Math.random() * 0.01) - 0.005;
+this.nodes = [];
+
+for (var i = 0, node; i < settings.size; i++) {
+
+node = new Node();
+node.x = target.x;
+node.y = target.y;
+
+this.nodes.push(node);
+}
+},
+
+update: function () {
+
+var spring = this.spring,
+node = this.nodes[0];
+
+node.vx += (target.x - node.x) * spring;
+node.vy += (target.y - node.y) * spring;
+
+for (var prev, i = 0, n = this.nodes.length; i < n; i++) {
+
+node = this.nodes[i];
+
+if (i > 0) {
+
+prev = this.nodes[i - 1];
+
+node.vx += (prev.x - node.x) * spring;
+node.vy += (prev.y - node.y) * spring;
+node.vx += prev.vx * settings.dampening;
+node.vy += prev.vy * settings.dampening;
+}
+
+node.vx *= this.friction;
+node.vy *= this.friction;
+node.x += node.vx;
+node.y += node.vy;
+
+spring *= settings.tension;
+}
+},
+
+draw: function () {
+
+var x = this.nodes[0].x,
+y = this.nodes[0].y,
+a, b;
+
+ctx.beginPath();
+ctx.moveTo(x, y);
+
+for (var i = 1, n = this.nodes.length - 2; i < n; i++) {
+
+a = this.nodes[i];
+b = this.nodes[i + 1];
+x = (a.x + b.x) * 0.5;
+y = (a.y + b.y) * 0.5;
+
+ctx.quadraticCurveTo(a.x, a.y, x, y);
+}
+
+a = this.nodes[i];
+b = this.nodes[i + 1];
+
+ctx.quadraticCurveTo(a.x, a.y, b.x, b.y);
+ctx.stroke();
+ctx.closePath();
+}
+};
+
+})();
+
+// ----------------------------------------------------------------------------------------
+
+function init(event) {
+
+document.removeEventListener('mousemove', init);
+document.removeEventListener('touchstart', init);
+
+document.addEventListener('mousemove', mousemove);
+document.addEventListener('touchmove', mousemove);
+document.addEventListener('touchstart', touchstart);
+
+mousemove(event);
+reset();
+loop();
+}
+
+function reset() {
+
+tendrils = [];
+
+for (var i = 0; i < settings.trails; i++) {
+
+tendrils.push(new Tendril({
+spring: 0.45 + 0.025 * (i / settings.trails)
+}));
+}
+}
+
+function loop() {
+
+if (!ctx.running) return;
+
+ctx.globalCompositeOperation = 'source-over';
+ctx.fillStyle = 'rgba(8,5,16,0.4)';
+ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+ctx.globalCompositeOperation = 'lighter';
+ctx.strokeStyle = 'hsla(' + Math.round(hue.update()) + ',90%,50%,0.25)';
+ctx.lineWidth = 1;
+
+if (ctx.frame % 60 == 0) {
+console.log(hue.update(), Math.round(hue.update()), hue.phase, hue.offset, hue.frequency, hue.amplitude);
+}
+
+for (var i = 0, tendril; i < settings.trails; i++) {
+tendril = tendrils[i];
+tendril.update();
+tendril.draw();
+}
+
+ctx.frame++;
+ctx.stats.update();
+requestAnimFrame(loop);
+}
+
+function resize() {
+ctx.canvas.width = window.innerWidth;
+ctx.canvas.height = window.innerHeight;
+}
+
+function start() {
+if (!ctx.running) {
+ctx.running = true;
+loop();
+}
+}
+
+function stop() {
+ctx.running = false;
+}
+
+function mousemove(event) {
+if (event.touches) {
+target.x = event.touches[0].pageX;
+target.y = event.touches[0].pageY;
+} else {
+target.x = event.clientX
+target.y = event.clientY;
+}
+event.preventDefault();
+}
+
+function touchstart(event) {
+if (event.touches.length == 1) {
+target.x = event.touches[0].pageX;
+target.y = event.touches[0].pageY;
+}
+}
+
+function keyup(event) {
+
+switch (event.keyCode) {
+case 32:
+save();
+break;
+default:
+// console.log(event.keyCode); hovertree.com
+}
+}
+
+function letters(id) {
+
+var el = document.getElementById(id),
+letters = el.innerHTML.replace('&', '&').split(''),
+heading = '';
+
+for (var i = 0, n = letters.length, letter; i < n; i++) {
+letter = letters[i].replace('&', '&amp');
+heading += letter.trim() ? '<span class="letter-' + i + '">' + letter + '</span>' : ' ';
+}
+
+el.innerHTML = heading;
+setTimeout(function () {
+el.className = 'transition-in';
+}, (Math.random() * 500) + 500);
+}
+
+function save() {
+
+if (!buffer) {
+
+buffer = document.createElement('canvas');
+buffer.width = screen.availWidth;
+buffer.height = screen.availHeight;
+buffer.ctx = buffer.getContext('2d');
+
+form = document.createElement('form');
+form.method = 'post';
+form.input = document.createElement('input');
+form.input.type = 'hidden';
+form.input.name = 'data';
+form.appendChild(form.input);
+
+document.body.appendChild(form);
+}
+
+buffer.ctx.fillStyle = 'rgba(8,5,16)';
+buffer.ctx.fillRect(0, 0, buffer.width, buffer.height);
+
+buffer.ctx.drawImage(canvas,
+Math.round(buffer.width / 2 - canvas.width / 2),
+Math.round(buffer.height / 2 - canvas.height / 2)
+);
+
+buffer.ctx.drawImage(logo,
+Math.round(buffer.width / 2 - logo.width / 4),
+Math.round(buffer.height / 2 - logo.height / 4),
+logo.width / 2,
+logo.height / 2
+);
+
+window.open(buffer.toDataURL(), 'wallpaper', 'top=0,left=0,width=' + buffer.width + ',height=' + buffer.height);
+
+// form.input.value = buffer.toDataURL().substr(22);
+// form.submit(); hovertree.com
+}
+
+window.requestAnimFrame = (function () {
+return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (fn) { window.setTimeout(fn, 1000 / 60) };
+})();
+
+window.onload = function () {
+
+ctx = document.getElementById('canvas').getContext('2d');
+ctx.stats = new Stats();
+ctx.running = true;
+ctx.frame = 1;
+
+logo = new Image();
+logo.src = 'ht' + 'tp://ho' + 'vertree.c' + 'om/themes/hvtimages/hvtlogo.p' + 'ng';
+
+hue = new Oscillator({
+phase: Math.random() * Math.TWO_PI,
+amplitude: 85,
+frequency: 0.0015,
+offset: 285
+});
+
+letters('h1');
+letters('h2');
+
+document.addEventListener('mousemove', init);
+document.addEventListener('touchstart', init);
+document.body.addEventListener('orientationchange', resize);
+window.addEventListener('resize', resize);
+window.addEventListener('keyup', keyup);
+window.addEventListener('focus', start);
+window.addEventListener('blur', stop);
+
+resize();
+
+if (window.DEBUG) {
+
+var gui = new dat.GUI();
+
+// gui.add(settings, 'debug');
+settings.gui.add(settings, 'trails', 1, 30).onChange(reset);
+settings.gui.add(settings, 'size', 25, 75).onFinishChange(reset);
+settings.gui.add(settings, 'friction', 0.45, 0.55).onFinishChange(reset);
+settings.gui.add(settings, 'dampening', 0.01, 0.4).onFinishChange(reset);
+settings.gui.add(settings, 'tension', 0.95, 0.999).onFinishChange(reset);
+
+document.body.appendChild(ctx.stats.domElement);
+}
+};
+
+})(window);
+
+</script>
+</body>
+</html>
