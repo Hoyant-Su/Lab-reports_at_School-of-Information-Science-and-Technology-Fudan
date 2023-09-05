@@ -1,5 +1,6 @@
 # Hoyant-Su.github.io
 Haoyang Su's course homepage, course materials (lab reports etc. in Fudan University) are linked to the Overleaf platform for reference.
+("More detailed content can be accessed at hoyant.com)
 
 
 [![Stargazers repo roster for @Hoyant-Su/Hoyant-Su.github.io](https://reporoster.com/stars/Hoyant-Su/Hoyant-Su.github.io)](https://github.com/Hoyant-Su/Hoyant-Su.github.io/stargazers)
