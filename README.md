@@ -1,7 +1,7 @@
 # Hoyant-Su.github.io
 Haoyang Su's course homepage, course materials (lab reports etc. in Fudan University) are linked to the Overleaf platform for reference.
 
-(detailed content can be accessed at <a href = "hoyant.com">hoyant.com</a>)
+(detailed content can be accessed at <a href = "https://hoyant.com">hoyant.com</a>)
 
 Any pull requests and issues related to learning materials are welcome.
 
