@@ -17,7 +17,49 @@
             color: blue;
             text-decoration: underline;
         }
+	#date-sidebar {
+	  position: fixed;
+	  top: 50%; /* 或者您希望的位置 */
+	  left: 0;
+	  transform: translateY(-50%);
+	  background-color: #f3f3f3;
+	  padding: 10px;
+	  border-radius: 0 5px 5px 0;
+	}
+	
+	#date-sidebar a {
+	  display: block;
+	  padding: 5px;
+	  margin: 5px 0;
+	  color: blue;
+	  text-decoration: none;
+	}
+	
+	#date-sidebar a:hover {
+	  background-color: #ddd;
+	}
+	
+	#content {
+	  margin-left: 150px; /* 根据侧边栏宽度调整 */
+	}
     </style>
+</head>
+
+<body>
+	<!-- 侧边栏日期导航 -->
+	<div id="date-sidebar">
+	  <a href="#date1">2019-2020 summer term</a>
+	  <a href="#date1">2020-2021 spring semester</a>
+	  <a href="#date2">2021-2022 fall semester</a> 
+	  <a href="#date1">2021-2022 spring semester</a>
+	  <a href="#date1">2021-2022 summer term</a>	
+	  <a href="#date2">2022-2023 fall semester</a> 
+	  <a href="#date1">2022-2023 spring semester</a>
+	   
+	
+	  <!-- 更多日期 -->
+	</div>
+	    
     <script>
         function password() {
             var testV = 1;
@@ -50,26 +92,8 @@
                 }
             });
         });
-
-
-	    
-    </script>
-</head>
-<body>
-
-<!-- 侧边栏日期导航 -->
-<div id="date-sidebar">
-  <a href="#date1">2019-2020 summer term</a>
-  <a href="#date1">2020-2021 spring semester</a>
-  <a href="#date2">2021-2022 fall semester</a> 
-  <a href="#date1">2021-2022 spring semester</a>
-  <a href="#date1">2021-2022 summer term</a>	
-  <a href="#date2">2022-2023 fall semester</a> 
-  <a href="#date1">2022-2023 spring semester</a>
    
-
-  <!-- 更多日期 -->
-</div>
+    </script>
 
 	
 <h1>Hy Su LESSONS IN FDUCOLLEGE (Overleaf)</h1>
