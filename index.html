@@ -18,26 +18,27 @@
             text-decoration: underline;
         }
 	#date-sidebar {
-	  position: fixed;
-	  top: 50%; /* 或者您希望的位置 */
-	  left: 0;
-	  transform: translateY(-50%);
-	  background-color: #f3f3f3;
-	  padding: 10px;
-	  border-radius: 0 5px 5px 0;
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    background-color: #f3f3f3;
+	    padding: 10px;
+	    border-radius: 5px 0 0 5px;
 	}
 	
 	#date-sidebar a {
-	  display: block;
-	  padding: 5px;
-	  margin: 5px 0;
-	  color: blue;
-	  text-decoration: none;
+	    display: inline-block;
+	    padding: 5px 10px;
+	    margin-left: 5px;
+	    color: blue;
+	    text-decoration: none;
+	    border: 1px solid black; /* 黑色边框 */
 	}
 	
 	#date-sidebar a:hover {
-	  background-color: #ddd;
+	    background-color: #ddd;
 	}
+
 	
 	#content {
 	  margin-left: 150px; /* 根据侧边栏宽度调整 */
@@ -48,13 +49,13 @@
 <body>
 	<!-- 侧边栏日期导航 -->
 	<div id="date-sidebar">
-	  <a href="#date1">2019-2020 summer term</a>
-	  <a href="#date1">2020-2021 spring semester</a>
-	  <a href="#date2">2021-2022 fall semester</a> 
-	  <a href="#date1">2021-2022 spring semester</a>
-	  <a href="#date1">2021-2022 summer term</a>	
-	  <a href="#date2">2022-2023 fall semester</a> 
-	  <a href="#date1">2022-2023 spring semester</a>
+	  <a href="#date1">19-20 summer term</a>
+	  <a href="#date1">20-21 spring semester</a>
+	  <a href="#date2">21-22 fall semester</a> 
+	  <a href="#date1">21-22 spring semester</a>
+	  <a href="#date1">21-22 summer term</a>	
+	  <a href="#date2">22-23 fall semester</a> 
+	  <a href="#date1">22-23 spring semester</a>
 	   
 	
 	  <!-- 更多日期 -->
