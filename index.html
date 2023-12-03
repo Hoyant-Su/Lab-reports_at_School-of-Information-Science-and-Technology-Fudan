@@ -17,12 +17,11 @@
             color: blue;
             text-decoration: underline;
         }
+	    
 	#date-sidebar {
 	    position: fixed;
 	    top: 0;
 	    right: 0;
-	    background-color: #000000; /* 黑色背景 */
-	    border-radius: 10px; /* 圆角矩形 */
 	    padding: 10px;
 	    display: grid;
 	    grid-template-columns: repeat(3, auto); /* 3列布局 */
@@ -32,16 +31,21 @@
 	#date-sidebar a {
 	    display: block;
 	    padding: 5px 10px;
-	    color: white; /* 字体颜色为白色 */
+	    color: black; /* 字体颜色为黑色 */
 	    text-decoration: none;
 	    text-align: center;
-	    background-color: #000000; /* 黑色背景 */
-	    border-radius: 5px; /* 圆角矩形 */
+	    background-color: white; /* 背景色为白色 */
+	    border: 2px solid black; /* 黑色边框 */
+	    border-radius: 5px; /* 圆角 */
+	    transition: all 0.3s; /* 平滑过渡效果 */
 	}
 	
 	#date-sidebar a:hover {
-	    background-color: #333333; /* 悬停时的背景颜色 */
+	    background-color: white; /* 悬停时背景颜色 */
+	    border: 3px solid black; /* 悬停时边框变粗 */
+	    padding: 4px 9px; /* 调整内部空间以保持文字大小 */
 	}
+
 
 	
 	#content {
