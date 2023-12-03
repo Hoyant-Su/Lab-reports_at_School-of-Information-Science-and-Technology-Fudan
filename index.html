@@ -57,7 +57,21 @@
 </head>
 <body>
 
+<!-- 侧边栏日期导航 -->
+<div id="date-sidebar">
+  <a href="#date1">2019-2020 summer term</a>
+  <a href="#date1">2020-2021 spring semester</a>
+  <a href="#date2">2021-2022 fall semester</a> 
+  <a href="#date1">2021-2022 spring semester</a>
+  <a href="#date1">2021-2022 summer term</a>	
+  <a href="#date2">2022-2023 fall semester</a> 
+  <a href="#date1">2022-2023 spring semester</a>
+   
 
+  <!-- 更多日期 -->
+</div>
+
+	
 <h1>Hy Su LESSONS IN FDUCOLLEGE (Overleaf)</h1>
 
 <br>
@@ -76,15 +90,15 @@
 </a>
 
 
-
+<div id="content">
 	
-<h2>2019-2020 summer term</h2>
+<h2 id='date1'>2019-2020 summer term</h2>
 <h3 id="toggle-header1" style="cursor: pointer;">Based on the Discussion of  Charles Hermite on the Proof of the Irrationality of Euler's Number e and its Extended Propositions</h3>
 <ul id="experiment-list1" style="display: none;">
   <li>Link Sharing: <a href="https://www.overleaf.com/read/hvdsttdbndgp">https://www.overleaf.com/read/hvdsttdbndgp</a></li>
 </ul>
 
-<h2>2020-2021 spring semester</h2>
+<h2 id='date2'>2020-2021 spring semester</h2>
 <h3 id="toggle-header2" style="cursor: pointer;">Fundamental Physics Experiments</h3>
 <ul id="experiment-list2" style="display: none;">
   <li>Magnetic Field of the Circular Coil and the Helmholtz Coil: <a href="https://www.overleaf.com/read/wctmcbyrgqvh">https://www.overleaf.com/read/wctmcbyrgqvh</a></li>
@@ -117,7 +131,7 @@
   <li>Mid-term Project: Python Drawing K-Line and GUI Stock Design: <a href="https://www.overleaf.com/read/fmpqwdkzbqnb">https://www.overleaf.com/read/fmpqwdkzbqnb</a></li>
 </ul>
 
-<h2>2021-2022 fall semester</h2>
+<h2 id='date3'>2021-2022 fall semester</h2>
 <h3 id="toggle-header4" style="cursor: pointer;">Analog and Digital Circuit Experiments</h3>
 
 <ul id="experiment-list4" style="display: none;">
@@ -152,20 +166,20 @@
   <li>Mid-term Experiment: Flat Observation and Drug Sensitivity Experiment: <a href="https://www.overleaf.com/read/xkshmsdfymtf">https://www.overleaf.com/read/xkshmsdfymtf</a></li>
 </ul>
 
-<h2>2021-2022 spring semester</h2>
+<h2 id='date4'>2021-2022 spring semester</h2>
 <h3>High frequency electronic circuit B</h3>
 <ul>
   <li>FM Radio Circuit Design and Simulation: Final Project: <a href="https://www.overleaf.com/read/ksmvmswncwfh">https://www.overleaf.com/read/ksmvmswncwfh</a></li>
 </ul>
 
-<h2>2021-2022 summer term</h2>
+<h2 id='date5'>2021-2022 summer term</h2>
 <h3>Discrete Mathematics (Knowledge Review)</h3>
 <a href="https://www.overleaf.com/read/ncfjqyqmnvcs">https://www.overleaf.com/read/ncfjqyqmnvcs</a>
 
 <h3>Digital System Design (Knowledge Review)</h3>
 <a href="https://www.overleaf.com/read/pdrqkszvtctt">https://www.overleaf.com/read/pdrqkszvtctt</a>
 
-<h2>2022-2023 fall semester</h2>
+<h2 id='date6'>2022-2023 fall semester</h2>
 <h3>The Basic of Biomedical Engineering</h3>
 Homework: <a href = "https://www.overleaf.com/read/hppdksxxnsvt">https://www.overleaf.com/read/hppdksxxnsvt</a>
 
@@ -205,7 +219,7 @@ Homework: <a href = "https://www.overleaf.com/read/hppdksxxnsvt">https://www.ove
 <li>Experiment5: 键盘与数码管显示实验 <a href = "https://www.overleaf.com/read/mbbthxyhkysj">https://www.overleaf.com/read/mbbthxyhkysj</a></li>
  </ul>
 -->  
-<h2>2022-2023 spring semester</h2>
+<h2 id='date7'>2022-2023 spring semester</h2>
 <h3>High Frequency Circuit Experiment</h3>
 <ul>
 <li>Experiment1 - Experiment5: <a href = "https://www.overleaf.com/read/byhjkcgbjzyt">https://www.overleaf.com/read/byhjkcgbjzyt</a></li>
@@ -297,10 +311,17 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
-
-
-    
-
+	
+<script>
+document.querySelectorAll('#date-sidebar a').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});   
+</script>
 
     
 </body>
