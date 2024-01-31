@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('https://github.com/Hoyant-Su/font_testing/heptapods.ttf') format('truetype');
+  src: url("../Lab-reports_at_School-of-Information-Science-and-Technology-Fudan/heptapods.ttf") format('truetype');
 }
 
 body {
