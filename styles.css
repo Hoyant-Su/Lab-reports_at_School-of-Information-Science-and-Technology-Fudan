@@ -1,9 +1,14 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('https://github.com/Hoyant-Su/font_testing/raw/main/heptapods%20(2).ttf') format('truetype');
+}
+
 body {
   background-image: url('E8AF80A2989B12A7E5A6E24342E565BC.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: MyCustomFont;
+  font-family: 'MyCustomFont', sans-serif;
 }
 
 h1 {
